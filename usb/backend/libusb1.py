@@ -970,6 +970,6 @@ def get_backend(find_library=None):
         _logger.error('Error loading libusb 1.0 backend', exc_info=True)
         return None
 
-def erase_lib_object(find_library=None):
+def erase_lib_object():
     global _lib, _lib_object
     _lib_object = None
